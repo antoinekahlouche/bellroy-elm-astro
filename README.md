@@ -28,3 +28,7 @@ https://fr.bellroy.com/careers/senior-front-developer
 4h
 
 -   Elm Card
+
+1h
+
+-   GitHub pages

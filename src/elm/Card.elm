@@ -143,7 +143,7 @@ view model =
                       h3
                         []
                         [ a
-                            [ href ("/products/" ++ product.id)
+                            [ href ("/bellroy-elm-astro/products/" ++ product.id)
                             , class "text-current no-underline"
                             ]
                             [ Html.text product.name
