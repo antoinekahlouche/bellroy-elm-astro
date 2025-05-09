@@ -1,8 +1,9 @@
 # Bellroy component with ELM and Astro
 
-## Demo
+## Links
 
-[>> Demo <<](https://antoinekahlouche.github.io/bellroy-elm-astro/)
+-   [Demo](https://antoinekahlouche.github.io/bellroy-elm-astro/)
+-   [LinkedIn](https://www.linkedin.com/in/antoinekahlouche/)
 
 ## Specifications
 
