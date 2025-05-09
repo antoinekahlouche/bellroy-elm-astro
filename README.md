@@ -1,9 +1,8 @@
 # Bellroy component with ELM and Astro
 
-## Job offer
+## Demo
 
-![senior-front-developer](job-offer.png)
-https://fr.bellroy.com/careers/senior-front-developer
+[>> Demo <<](https://antoinekahlouche.github.io/bellroy-elm-astro/)
 
 ## Specifications
 
@@ -32,3 +31,8 @@ https://fr.bellroy.com/careers/senior-front-developer
 1h
 
 -   GitHub pages
+
+## Job offer
+
+![senior-front-developer](job-offer.png)
+https://fr.bellroy.com/careers/senior-front-developer
