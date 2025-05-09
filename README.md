@@ -27,7 +27,7 @@
 
 4h
 
--   Elm Card
+-   Elm Card - First time I worked with Elm
 
 1h
 
@@ -36,4 +36,4 @@
 ## Job offer
 
 ![senior-front-developer](job-offer.png)
-https://fr.bellroy.com/careers/senior-front-developer
+https://bellroy.com/careers/senior-front-developer
