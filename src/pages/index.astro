@@ -1,0 +1,26 @@
+---
+// Ref. https://bellroy.com/
+import Layout from "../layouts/Layout.astro";
+import Card from "../elm/Card.elm";
+import { getCollection } from "astro:content";
+const products = await getCollection("products");
+---
+
+<Layout>
+	<div class="flex flex-col items-center">
+		<h2 class="text-xl my-10">Traveling soon? These travel products will help.</h2>
+
+		<div class="flex items-center gap-5">
+			{products.slice(0, 1).map((p) => <Card product={p.data} client:load />)}
+			<div class="hidden md:block">
+				{products.slice(1, 2).map((p) => <Card product={p.data} client:load />)}
+			</div>
+			<div class="hidden lg:block">
+				{products.slice(2, 3).map((p) => <Card product={p.data} client:load />)}
+			</div>
+			<div class="hidden xl:block">
+				{products.slice(3, 4).map((p) => <Card product={p.data} client:load />)}
+			</div>
+		</div>
+	</div>
+</Layout>

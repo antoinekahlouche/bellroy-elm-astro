@@ -1,0 +1,53 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+export async function getStaticPaths() {
+	const products = await getCollection("products");
+	return products.map((product) => ({
+		params: { id: product.id },
+		props: { product },
+	}));
+}
+
+const { product } = Astro.props;
+---
+
+<Layout>
+	<h1 class="text-xl my-10">Product page</h1>
+
+	<p class="my-10">
+		Nothing to see here, other than the fact that this page is generated via Astro's content
+		collection.
+	</p>
+
+	<h2 class="font-bold my-5">Raw data</h2>
+	<ul class="pl-5 list-disc">
+		<li><span class="font-bold">id:</span> {product.data.id}</li>
+		<li><span class="font-bold">name:</span> {product.data.name}</li>
+		<li><span class="font-bold">price:</span> {product.data.price}</li>
+		<li>
+			<span class="font-bold">colors:</span>
+			<ul class="pl-5 list-disc">
+				{
+					product.data.colors.map((c, i) => (
+						<li>
+							{i}
+							<ul class="pl-5 list-disc">
+								<li>
+									<span class="font-bold">name:</span> {c.name}
+								</li>
+								<li>
+									<span class="font-bold">img:</span> {c.img}
+								</li>
+								<li>
+									<span class="font-bold">hex:</span> {c.hex}
+								</li>
+							</ul>
+						</li>
+					))
+				}
+			</ul>
+		</li>
+		<li><span class="font-bold">description:</span> {product.data.description}</li>
+	</ul>
+</Layout>

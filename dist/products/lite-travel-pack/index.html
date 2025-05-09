@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><link rel="icon" type="image/svg+xml" href="https://bellroy.com/favicon-32x32.png?v=YAmYvvKg0r"><meta name="viewport" content="width=device-width"><title>Bellroy ELM Astro</title><link rel="stylesheet" href="/_astro/index.Bp5LfFL0.css"><script>/** Elmstronaut Bootstrap Script */
+(() => {
+  // Elm apps that have been initialized are kept in this queue
+  // until `window.onElmInit` is defined.
+  window.__elmInitQueue = [];
+
+  // If `window.onElmInit` is defined, use it.
+  // Otherwise, set it to `undefined` (treated as a special value).
+  let fn =
+    typeof window.onElmInit === "function" ? window.onElmInit : undefined;
+
+  Object.defineProperty(window, "onElmInit", {
+    get: () => fn,
+    set: (value) => {
+      // The value should be a function.
+      if (typeof value !== "function") {
+        return;
+      }
+
+      // This is the first time `window.onElmInit` is defined.
+      if (fn === undefined) {
+        fn = value;
+
+        // Call `window.onElmInit` on all queued components.
+        for (const { elmModuleName, app } of window.__elmInitQueue) {
+          fn(elmModuleName, app);
+        }
+      } else {
+        // This is a design choice to prevent users from creating issues
+        // caused by multiple `window.onElmInit` definitions.
+        // Let's hope we don't regret it.
+        throw new Error("`window.onElmInit` should only be defined once.");
+      }
+    },
+  });
+})();
+</script></head> <body class="container mx-auto bg-neutral-100">  <h1 class="text-xl my-10">Product page</h1> <p class="my-10">
+Nothing to see here, other than the fact that this page is generated via Astro's content
+		collection.
+</p> <h2 class="font-bold my-5">Raw data</h2> <ul class="pl-5 list-disc"> <li><span class="font-bold">id:</span> lite-travel-pack</li> <li><span class="font-bold">name:</span> Lite Travel Pack 30L</li> <li><span class="font-bold">price:</span> $289</li> <li> <span class="font-bold">colors:</span> <ul class="pl-5 list-disc"> <li> 0 <ul class="pl-5 list-disc"> <li> <span class="font-bold">name:</span> Black </li> <li> <span class="font-bold">img:</span> https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/BLPA-BLK-241/0?auto=format&amp;fit=max&amp;w=320 </li> <li> <span class="font-bold">hex:</span> #363636 </li> </ul> </li><li> 1 <ul class="pl-5 list-disc"> <li> <span class="font-bold">name:</span> Ash </li> <li> <span class="font-bold">img:</span> https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/BLPA-ASH-241/0?auto=format&amp;fit=max&amp;w=320 </li> <li> <span class="font-bold">hex:</span> #DCDCDC </li> </ul> </li><li> 2 <ul class="pl-5 list-disc"> <li> <span class="font-bold">name:</span> Clay </li> <li> <span class="font-bold">img:</span> https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/BLPA-CLY-241/0?auto=format&amp;fit=max&amp;w=320 </li> <li> <span class="font-bold">hex:</span> #AF4434 </li> </ul> </li> </ul> </li> <li><span class="font-bold">description:</span> 30L / Compact and optimized for carry-on</li> </ul>  </body></html>

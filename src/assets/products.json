@@ -1,0 +1,119 @@
+[
+	{
+		"id": "lite-travel-pack",
+		"name": "Lite Travel Pack 30L",
+		"price": "$289",
+		"colors": [
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/BLPA-BLK-241/0?auto=format&fit=max&w=320",
+				"name": "Black",
+				"hex": "#363636"
+			},
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/BLPA-ASH-241/0?auto=format&fit=max&w=320",
+				"name": "Ash",
+				"hex": "#DCDCDC"
+			},
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/BLPA-CLY-241/0?auto=format&fit=max&w=320",
+				"name": "Clay",
+				"hex": "#AF4434"
+			}
+		],
+		"description": "30L / Compact and optimized for carry-on"
+	},
+	{
+		"id": "tech-kit",
+		"name": "Tech Kit",
+		"price": "$89",
+		"colors": [
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/ETKA-BLK-231/0?auto=format&fit=max&w=320",
+				"name": "Black",
+				"hex": "#363636"
+			},
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/ETKA-SLT-230/0?auto=format&fit=max&w=320",
+				"name": "Slate",
+				"hex": "#5B5B58"
+			},
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/ETKA-NAV-227/0?auto=format&fit=max&w=320",
+				"name": "Navy",
+				"hex": "#212E41"
+			},
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/ETKA-EUC-230/0?auto=format&fit=max&w=320",
+				"name": "Eucalyptus",
+				"hex": "#A8B7B2"
+			},
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/ETKA-BRZ-213/0?auto=format&fit=max&w=320",
+				"name": "Bronze",
+				"hex": "#B45629"
+			},
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/ETKA-SAB-217/0?auto=format&fit=max&w=320",
+				"name": "Saltbush",
+				"hex": "#E4D9CC"
+			}
+		],
+		"description": "Charger, mouse, powerbank, dongles, cables, earbuds"
+	},
+	{
+		"id": "venture-sling-6l",
+		"name": "Venture Sling 6L",
+		"price": "$189",
+		"colors": [
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/BMVA-BLK-228/0?auto=format&fit=max&w=320",
+				"name": "Black",
+				"hex": "#363636"
+			},
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/BMVA-NSK-218/0?auto=format&fit=max&w=320",
+				"name": "Nightsky",
+				"hex": "#212E41"
+			},
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/BMVA-RGN-213/0?auto=format&fit=max&w=320",
+				"name": "Ranger Green",
+				"hex": "#6D7F4E"
+			},
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/BMVA-BRZ-213/0?auto=format&fit=max&w=320",
+				"name": "Bronze",
+				"hex": "#B45629"
+			}
+		],
+		"description": "6L / An organized sling that's ready for adventure"
+	},
+	{
+		"id": "toiletry-kit-plus",
+		"name": "Toiletry Kit Plus",
+		"price": "$99",
+		"colors": [
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/EDKC-BLK-215/0?auto=format&fit=max&w=320",
+				"name": "Black",
+				"hex": "#363636"
+			},
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/EDKC-SLT-230/0?auto=format&fit=max&w=320",
+				"name": "Slate",
+				"hex": "#5B5B58"
+			},
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/EDKC-NAV-227/0?auto=format&fit=max&w=320",
+				"name": "Navy",
+				"hex": "#212E41"
+			},
+			{
+				"img": "https://bellroy-product-images.imgix.net/bellroy_dot_com_range_page_image/AUD/EDKC-CLY-213/0?auto=format&fit=max&w=320",
+				"name": "Clay",
+				"hex": "#AF4434"
+			}
+		],
+		"description": "Large toiletries, electric toothbrush, deodorant and more"
+	}
+]
